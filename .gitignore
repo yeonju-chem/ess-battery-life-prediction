@@ -1,0 +1,7 @@
+.venv/
+data/*.mat
+results/*.csv
+results/*.png
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
