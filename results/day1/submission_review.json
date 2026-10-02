@@ -1,0 +1,15 @@
+{
+  "pdf_pages": 27,
+  "pdf_sha256": "4bc65db0ebb383383070d4466f4b92a1115a5b9c58d2413b640412058467abb5",
+  "executed_code_cells": 22,
+  "integrity_checks_passed": 28,
+  "figures": 17,
+  "csv_tables": 21,
+  "narrative_style": "declarative Korean",
+  "rubric_coverage": {
+    "EDA_50": "Q1-Q5, per-batch distributions and statistical analysis",
+    "EDA_strategy_30": "observations, interpretation, implications and limitations",
+    "model_strategy_20": "regression target, features, candidates and validation"
+  },
+  "note": "Coverage check, not a predicted grade. Rendering must be reviewed separately."
+}

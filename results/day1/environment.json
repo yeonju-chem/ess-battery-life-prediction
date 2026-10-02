@@ -1,0 +1,22 @@
+{
+  "python": "3.11.15",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "random_state": 42,
+  "libraries": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "h5py": "3.16.0",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.2",
+    "scikit-learn": "1.9.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "report_python": "3.12.14",
+  "report_libraries": {
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0",
+    "Pillow": "12.3.0"
+  },
+  "execution_note": "분석: 프로젝트 .venv Python 3.11 / PDF: Codex bundled Python 3.12. 주요 패키지 버전을 기록했으며 단일 신규 환경 설치는 별도 검증하지 않음."
+}

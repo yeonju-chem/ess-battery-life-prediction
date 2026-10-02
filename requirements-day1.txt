@@ -1,0 +1,8 @@
+-r requirements.txt
+nbformat
+nbclient
+nbconvert
+ipykernel
+reportlab
+pypdf
+Pillow

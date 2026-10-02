@@ -1,0 +1,117 @@
+{
+  "checks": [
+    {
+      "check": "unique_cell_ids",
+      "passed": true
+    },
+    {
+      "check": "raw_and_screened_counts",
+      "passed": true
+    },
+    {
+      "check": "missing_targets_not_imputed",
+      "passed": true
+    },
+    {
+      "check": "no_missing_main_feature",
+      "passed": true
+    },
+    {
+      "check": "no_policy_overlap_holdout",
+      "passed": true
+    },
+    {
+      "check": "cv_policy_integrity",
+      "passed": true
+    },
+    {
+      "check": "cv4_and_29train_7valid",
+      "passed": true
+    },
+    {
+      "check": "future_fields_not_features",
+      "passed": true
+    },
+    {
+      "check": "perturb_future_cycles_no_feature_change",
+      "passed": true
+    },
+    {
+      "check": "Batch 1_voltage_grids_match",
+      "passed": true
+    },
+    {
+      "check": "Batch 2_voltage_grids_match",
+      "passed": true
+    },
+    {
+      "check": "Batch 3_voltage_grids_match",
+      "passed": true
+    },
+    {
+      "check": "cycle100_features_have_1000_points",
+      "passed": true
+    },
+    {
+      "check": "independent_delta_formula_all_cells",
+      "passed": true
+    },
+    {
+      "check": "all_17_figures_present",
+      "passed": true
+    },
+    {
+      "check": "all_csv_readable",
+      "passed": true
+    },
+    {
+      "check": "relative_groups_cover_each_batch",
+      "passed": true
+    },
+    {
+      "check": "relative_delta_direction_verified",
+      "passed": true
+    },
+    {
+      "check": "collinearity_all_batches_all_feature_pairs",
+      "passed": true
+    },
+    {
+      "check": "representatives_match_figures_and_tables",
+      "passed": true
+    },
+    {
+      "check": "representatives_invariant_to_input_order",
+      "passed": true
+    },
+    {
+      "check": "current_trace_time_alignment_all_cells",
+      "passed": true
+    },
+    {
+      "check": "smoothed_slope_has_no_future_cycle_dependency",
+      "passed": true
+    },
+    {
+      "check": "01_data_check.ipynb_all_code_executed_without_error",
+      "passed": true
+    },
+    {
+      "check": "01_data_check.ipynb_declarative_narrative",
+      "passed": true
+    },
+    {
+      "check": "02_day1_eda.ipynb_all_code_executed_without_error",
+      "passed": true
+    },
+    {
+      "check": "02_day1_eda.ipynb_declarative_narrative",
+      "passed": true
+    },
+    {
+      "check": "scratch_unchanged_during_final_review",
+      "passed": true
+    }
+  ],
+  "model_fit_performed": false
+}

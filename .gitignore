@@ -5,3 +5,4 @@ results/*.png
 .ipynb_checkpoints/
 __pycache__/
 .DS_Store
+results/day1/.cache/
