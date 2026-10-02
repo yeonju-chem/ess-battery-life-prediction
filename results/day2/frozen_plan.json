@@ -1,0 +1,859 @@
+{
+  "created_utc": "2026-10-02T05:01:00.979427+00:00",
+  "random_state": 42,
+  "feature_sets": {
+    "F1": [
+      "log_dq_var"
+    ],
+    "F2": [
+      "log_dq_var",
+      "qd_slope",
+      "c_equiv"
+    ],
+    "F3": [
+      "log_dq_var",
+      "qd_slope",
+      "c_equiv",
+      "tavg_median",
+      "ir_median"
+    ]
+  },
+  "candidates": [
+    {
+      "id": "C000",
+      "family": "Dummy",
+      "set": "F1",
+      "target": "raw",
+      "params": {}
+    },
+    {
+      "id": "C001",
+      "family": "Ridge",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "alpha": 0.1
+      }
+    },
+    {
+      "id": "C002",
+      "family": "Ridge",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "alpha": 1.0
+      }
+    },
+    {
+      "id": "C003",
+      "family": "Ridge",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "alpha": 10.0
+      }
+    },
+    {
+      "id": "C004",
+      "family": "Ridge",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "alpha": 100.0
+      }
+    },
+    {
+      "id": "C005",
+      "family": "ElasticNet",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "alpha": 0.001,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C006",
+      "family": "ElasticNet",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "alpha": 0.001,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C007",
+      "family": "ElasticNet",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "alpha": 0.01,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C008",
+      "family": "ElasticNet",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "alpha": 0.01,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C009",
+      "family": "ElasticNet",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "alpha": 0.1,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C010",
+      "family": "ElasticNet",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "alpha": 0.1,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C011",
+      "family": "RandomForest",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "C012",
+      "family": "RandomForest",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "id": "C013",
+      "family": "RandomForest",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "C014",
+      "family": "RandomForest",
+      "set": "F1",
+      "target": "raw",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "id": "C015",
+      "family": "Ridge",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "alpha": 0.1
+      }
+    },
+    {
+      "id": "C016",
+      "family": "Ridge",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "alpha": 1.0
+      }
+    },
+    {
+      "id": "C017",
+      "family": "Ridge",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "alpha": 10.0
+      }
+    },
+    {
+      "id": "C018",
+      "family": "Ridge",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "alpha": 100.0
+      }
+    },
+    {
+      "id": "C019",
+      "family": "ElasticNet",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "alpha": 0.001,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C020",
+      "family": "ElasticNet",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "alpha": 0.001,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C021",
+      "family": "ElasticNet",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "alpha": 0.01,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C022",
+      "family": "ElasticNet",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "alpha": 0.01,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C023",
+      "family": "ElasticNet",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "alpha": 0.1,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C024",
+      "family": "ElasticNet",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "alpha": 0.1,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C025",
+      "family": "RandomForest",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "C026",
+      "family": "RandomForest",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "id": "C027",
+      "family": "RandomForest",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "C028",
+      "family": "RandomForest",
+      "set": "F1",
+      "target": "log10",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "id": "C029",
+      "family": "Ridge",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "alpha": 0.1
+      }
+    },
+    {
+      "id": "C030",
+      "family": "Ridge",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "alpha": 1.0
+      }
+    },
+    {
+      "id": "C031",
+      "family": "Ridge",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "alpha": 10.0
+      }
+    },
+    {
+      "id": "C032",
+      "family": "Ridge",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "alpha": 100.0
+      }
+    },
+    {
+      "id": "C033",
+      "family": "ElasticNet",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "alpha": 0.001,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C034",
+      "family": "ElasticNet",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "alpha": 0.001,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C035",
+      "family": "ElasticNet",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "alpha": 0.01,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C036",
+      "family": "ElasticNet",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "alpha": 0.01,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C037",
+      "family": "ElasticNet",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "alpha": 0.1,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C038",
+      "family": "ElasticNet",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "alpha": 0.1,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C039",
+      "family": "RandomForest",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "C040",
+      "family": "RandomForest",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "id": "C041",
+      "family": "RandomForest",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "C042",
+      "family": "RandomForest",
+      "set": "F2",
+      "target": "raw",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "id": "C043",
+      "family": "Ridge",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "alpha": 0.1
+      }
+    },
+    {
+      "id": "C044",
+      "family": "Ridge",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "alpha": 1.0
+      }
+    },
+    {
+      "id": "C045",
+      "family": "Ridge",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "alpha": 10.0
+      }
+    },
+    {
+      "id": "C046",
+      "family": "Ridge",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "alpha": 100.0
+      }
+    },
+    {
+      "id": "C047",
+      "family": "ElasticNet",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "alpha": 0.001,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C048",
+      "family": "ElasticNet",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "alpha": 0.001,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C049",
+      "family": "ElasticNet",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "alpha": 0.01,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C050",
+      "family": "ElasticNet",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "alpha": 0.01,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C051",
+      "family": "ElasticNet",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "alpha": 0.1,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C052",
+      "family": "ElasticNet",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "alpha": 0.1,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C053",
+      "family": "RandomForest",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "C054",
+      "family": "RandomForest",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "id": "C055",
+      "family": "RandomForest",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "C056",
+      "family": "RandomForest",
+      "set": "F2",
+      "target": "log10",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "id": "C057",
+      "family": "Ridge",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "alpha": 0.1
+      }
+    },
+    {
+      "id": "C058",
+      "family": "Ridge",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "alpha": 1.0
+      }
+    },
+    {
+      "id": "C059",
+      "family": "Ridge",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "alpha": 10.0
+      }
+    },
+    {
+      "id": "C060",
+      "family": "Ridge",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "alpha": 100.0
+      }
+    },
+    {
+      "id": "C061",
+      "family": "ElasticNet",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "alpha": 0.001,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C062",
+      "family": "ElasticNet",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "alpha": 0.001,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C063",
+      "family": "ElasticNet",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "alpha": 0.01,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C064",
+      "family": "ElasticNet",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "alpha": 0.01,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C065",
+      "family": "ElasticNet",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "alpha": 0.1,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C066",
+      "family": "ElasticNet",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "alpha": 0.1,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C067",
+      "family": "RandomForest",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "C068",
+      "family": "RandomForest",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "id": "C069",
+      "family": "RandomForest",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "C070",
+      "family": "RandomForest",
+      "set": "F3",
+      "target": "raw",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "id": "C071",
+      "family": "Ridge",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "alpha": 0.1
+      }
+    },
+    {
+      "id": "C072",
+      "family": "Ridge",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "alpha": 1.0
+      }
+    },
+    {
+      "id": "C073",
+      "family": "Ridge",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "alpha": 10.0
+      }
+    },
+    {
+      "id": "C074",
+      "family": "Ridge",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "alpha": 100.0
+      }
+    },
+    {
+      "id": "C075",
+      "family": "ElasticNet",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "alpha": 0.001,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C076",
+      "family": "ElasticNet",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "alpha": 0.001,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C077",
+      "family": "ElasticNet",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "alpha": 0.01,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C078",
+      "family": "ElasticNet",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "alpha": 0.01,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C079",
+      "family": "ElasticNet",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "alpha": 0.1,
+        "l1_ratio": 0.2
+      }
+    },
+    {
+      "id": "C080",
+      "family": "ElasticNet",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "alpha": 0.1,
+        "l1_ratio": 0.8
+      }
+    },
+    {
+      "id": "C081",
+      "family": "RandomForest",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "C082",
+      "family": "RandomForest",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "max_depth": 2,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "id": "C083",
+      "family": "RandomForest",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "C084",
+      "family": "RandomForest",
+      "set": "F3",
+      "target": "log10",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 5
+      }
+    }
+  ],
+  "selection": "minimum mean 4-fold group CV MAPE on Batch 1 train 29; ties by fewer features then ID",
+  "holdout": "7 Batch 1 cells; policies disjoint; evaluate once after selection",
+  "final_fit": "refit selected specification on Batch 1 screened 36 for Batch 2 and Batch 3",
+  "target_mape_pct": 9.1,
+  "split_sha256": "22b8dba5886e307c1f39531a6cd3e38d6ef14e38f470611cd6e45d3cd172e6e4",
+  "external_use": "selected model and predeclared median baseline only; no retuning after external results",
+  "gap_formulas": {
+    "Train-Valid": "Valid - CV",
+    "Valid-Test": "Batch 2 - Valid",
+    "Target-Test": "Test - 9.1",
+    "Batch2-Batch3": "Batch 3 - Batch 2"
+  },
+  "known_limitation": "All batches were inspected during DAY 1 EDA; neither holdout nor external evaluation is fully blind."
+}

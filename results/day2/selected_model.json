@@ -1,0 +1,20 @@
+{
+  "selected_utc": "2026-10-02T05:01:09.605216+00:00",
+  "specification": {
+    "id": "C010",
+    "family": "ElasticNet",
+    "set": "F1",
+    "target": "raw",
+    "params": {
+      "alpha": 0.1,
+      "l1_ratio": 0.8
+    }
+  },
+  "features": [
+    "log_dq_var"
+  ],
+  "cv_mape": 9.209768546566975,
+  "cv_std": 3.2623356900252136,
+  "frozen_plan_sha256": "7773d9e93248ad6ef89beba26daedc0fc8ad431be6f460568b9b87daa77278e8",
+  "external_metrics_seen": false
+}

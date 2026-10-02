@@ -7,4 +7,10 @@ matplotlib
 seaborn
 scikit-learn
 jupyter
-
+nbformat
+nbclient
+ipykernel
+reportlab
+pypdf
+Pillow
+joblib

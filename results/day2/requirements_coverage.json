@@ -1,0 +1,8 @@
+{
+  "strategy_implementation_20": "PDF 02/05; src/day2_modeling.py SETS/candidates; F1/F2/F3 CV comparison",
+  "pipeline_40": "PDF 01-04; fixed policy group split; fold-local imputation/scaling; initial-only feature whitelist",
+  "reporting_20": "PDF 06/07/09; mandatory six-row CSV; explicit positive-worsening percentage-point gaps",
+  "interpretation_20": "PDF 08-11; under/overprediction, drift, paper comparability, development limitations",
+  "optional_batch3": "Same frozen final model; 40 cells; measurement-axis checks; extended nine-row CSV",
+  "not_claimed": "Paper target achieved, fully blind holdout/external test, global model optimum, causal explanation, live ESS readiness"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "linear",
+  "intercept": 788.4166666666666,
+  "target_scale": "raw",
+  "scaler_mean": [
+    -3.790467976033164
+  ],
+  "scaler_scale": [
+    0.22957019737708365
+  ]
+}
